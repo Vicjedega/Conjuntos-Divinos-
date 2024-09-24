@@ -36,7 +36,7 @@
             background: linear-gradient(90deg, rgba(255, 105, 180, 0.8), rgba(255, 255, 255, 0.6)); /* Degradado de fondo */
             padding: 10px 20px; /* Añadir espacio alrededor del texto */
             border-radius: 10px; /* Bordes redondeados */
-            animation: destello 1.5s infinite, movimiento 1.5s infinite; /* Aplicar las animaciones de destello y movimiento */
+            animation: movimiento 1.5s infinite; /* Aplicar la animación de movimiento */
         }
         .product-container {
             margin: 20px auto;
@@ -106,6 +106,25 @@
             margin: 10px 0; /* Espacio entre opiniones */
             font-style: italic; /* Texto en cursiva para un toque elegante */
         }
+        .precios {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .precios h3 {
+            color: #ff69b4; /* Color atractivo para el título */
+        }
+        .precios ul {
+            list-style-type: none; /* Eliminar viñetas */
+            padding: 0;
+        }
+        .precios li {
+            margin: 10px 0; /* Espaciado entre los precios */
+            font-size: 20px; /* Tamaño de fuente */
+        }
         .notificacion-compra {
             position: fixed;
             bottom: 20px;
@@ -135,6 +154,16 @@
 
     <h2>Cadena Sutil</h2>
     <p>Descubre el conjunto Cadena Sutil, diseñado con tela rib para un ajuste cómodo y elegante. Disponible en una paleta de colores vibrantes, este conjunto es perfecto para cualquier ocasión, desde un día casual hasta una noche especial. Siente la suavidad y el estilo que te acompañan en cada paso. ¡Hazlo tuyo y destaca con confianza!</p>
+
+    <!-- Sección de Precios -->
+    <div class="precios">
+        <h3>Precios Especiales</h3>
+        <ul>
+            <li>1 conjunto por <strong>$80,000</strong></li>
+            <li>2 conjuntos por <strong>$140,000</strong></li>
+            <li>3 conjuntos por <strong>$180,000</strong></li>
+        </ul>
+    </div>
 
     <!-- Imágenes del producto con botón "¡Compra Ya!" -->
     <div class="image-container">
